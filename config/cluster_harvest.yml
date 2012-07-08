@@ -1,0 +1,10 @@
+--- 
+cwd: /var/www/rails/harvest/current
+user: mongrel
+log_file: /var/log/mongrel_cluster/production_harvest.log
+port: "5000"
+environment: production
+group: mongrel
+address: 127.0.0.1
+pid_file: /var/run/mongrel_cluster/mongrel_harvest.pid
+servers: 3
